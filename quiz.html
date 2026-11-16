@@ -1,1 +1,255 @@
+<html>
+    <style>
+        body{
+            background-image: url("https://www.hp.com/content/dam/sites/worldwide/tech-takes/us-en/software/best/best-coding-programs/5_Best_Coding_Programs_for_Aspiring_Programmers1650304687858345.jpg");
+            background-size: cover;
+            background-attachment: fixed;
+            padding: 32px;
+        }
+        .quiz-container {
+            background: grey;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        }
+        .question {
+            margin-bottom: 20px;
+        }
+        .question p {
+        font-weight: bold;
+        color: aquamarine;
+        }
+        label {
+            display: block;
+            margin: 8px 0;
+            cursor: pointer;
+            color: aquamarine;
+        }
+        .navbar {
+      position: sticky;
+      top: 0;
+      z-index: 1000; /* Keeps the bar above other page elements */
+      background-color: #222;
+      padding: 15px 20px;
+      display: flex;
+      gap: 20px;
+    }
+    a{
+        background-color:  black;
+        padding: 10px;
+        text-decoration: none;
+        padding: 10px;
+        border: 2px solid black;
+        border-radius: 50px 50px 50px 50px;
+        cursor: pointer;
+    }
+    a:hover{
+        background-color: black;
+        color: red;
+        font-weight: bold;
+        padding: 10px;
+    }
+    </style>
+    <!-- Changing the name of the tab-->
+    <head><title>Self-assessment Quiz</title></head>
+    <!-- Inserting the quiz content for the page-->
+     <body>
+        <nav class="navbar" style="background-color: black;">
+        <h3 style="color: aquamarine;">Main Menu</h3>
+        <a href="homepage1.html"> &#127968 Home</a>
+        <a href="keyterms.html"> &#128273 Key Terms</a>
+        <a href="topic1.html"> &#128241 HTML</a>
+        <a href="topic2.html"> &#129668 CSS</a>
+        <a href="References.html"> &#128218 Referneces and Resources</a>
+        <a href="about.html">  &#129335 About </a>
+        <a href="quiz.html">  &#129300 Quiz </a>
+    </nav>  
+        <div class="quiz-container">
+            <h2 style="color: aquamarine;">Self-assessment Quiz</h2>
+            <form id="quizForm">
+                <div id="timer" style="color: aquamarine;font-weight: bold; font-size:xx-large;">10:00</div>
+        <div class="question">
+      <p>1. What does HTML stand for?</p>
+      <label><input type="radio" name="q1" value="a">A. Hyper Text Markup Language</label>
+      <label><input type="radio" name="q1" value="b">B. High Tech Modern Language</label>
+      <label><input type="radio" name="q1" value="c">C. Hyperlink and Text Management Language</label>
+      <label><input type="radio" name="q1" value="d">D. Hack Transfer Mobile Link</label>
+       </div>
+       <div class="question">
+      <p>2. What is the definition of Metadata?</p>
+      <label><input type="radio" name="q2" value="a">A. A secret code or password used to encrypt and
+         protect a digital file</label>
+      <label><input type="radio" name="q2" value="b">B. The physical storage device or server where a file 
+        is physically saved</label>
+      <label><input type="radio" name="q2" value="c">C. This is data about data, and in this context provides information
+        <br>&emsp;&emsp;&nbsp;&nbsp;embedded within a webpage's code</label>
+      <label><input type="radio" name="q2" value="d">D. Data that complicates and restricts the 
+        organization of information<br>&emsp;&emsp;&nbsp;&nbsp;by adding unnecessary noise</label>
+       </div>
+       <div class="question">
+      <p>3. How does id attribute differ from the class attribute?</p>
+      <label><input type="radio" name="q3" value="a">A. the id attribute is strictly unique to one element per page.</label>
+      <label><input type="radio" name="q3" value="b">B. the class attribute is strictly unique to one element per page.</label>
+      <label><input type="radio" name="q3" value="c">C. the id attribute is applicable to multiple pages.</label>
+      <label><input type="radio" name="q3" value="d">D. the id attribute is has lower priority in CSS Specificity.</label>
+       </div>
+       <div class="question">
+        <p>4. Fill in the blank.</p>
+        <p style="font-weight: lighter;">By human anaology,</p>
+        <p style="font-weight: lighter;">
+        the HTML coding acts as the <input type="text" id="q4" placeholder="Type Answer"> of the human body.
+        </p>
+       </div>
+       <div class="question">
+        <p>5. Fill in the blank.</p>
+        <p style="font-weight: lighter;">By human anaology,</p>
+        <p style="font-weight: lighter;">
+        the CSS coding acts as the <input type="text" id="q5" placeholder="Type Answer"> of the human body.
+        </p>
+       </div>
+       <div class="question">
+      <p>6. What is the purpose of Semantics?</p>
+      <label><input type="radio" name="q6" value="a">A. To control the visual appearance of text.</label>
+      <label><input type="radio" name="q6" value="b">B. To help screen readers understand page structure.</label>
+      <label><input type="radio" name="q6" value="c">C. To connect HTML directly to a database.</label>
+      <label><input type="radio" name="q6" value="d">D. To encrypt sensitive user data.</label>
+       </div>
+       <div class="question">
+      <p>7. What is the purpose of Non-Semantics?</p>
+      <label><input type="radio" name="q7" value="a">A. To help screen readers understand page structure./label>
+      <label><input type="radio" name="q7" value="b">B. To store database records and handle server requests.</label>
+      <label><input type="radio" name="q7" value="c">C. To add interactive behavior and logic to a webpage.</label>
+      <label><input type="radio" name="q7" value="d">D. Hack Transfer Mobile Link.</label>
+       </div>
+       <div class="question">
+      <p>8. What is HTML useful for?</p>
+      <label><input type="radio" name="q8" value="a">A. Performing mathematical calculations and logic. </label>
+      <label><input type="radio" name="q8" value="b">B. Creating complex visual layouts and animations.</label>
+      <label><input type="radio" name="q8" value="c">C. Well-structured HTML benefits assistive technologies<br>&emsp;&emsp;&nbsp;&nbsp;
+        allowing users with disabilities 
+                to interact with the content effectively.</label>
+      <label><input type="radio" name="q8" value="d">D. Handling user authentication and security.</label>
+       </div>
+       <div class="question">
+      <p>9. What is CSS useful for?</p>
+      <label><input type="radio" name="q9" value="a">A. Handling form submissions.</label>
+      <label><input type="radio" name="q9" value="b">B. Storing user sessions or cookies.</label>
+      <label><input type="radio" name="q9" value="c">C. Simplify website development by providing reusable<br>&emsp;&emsp;&nbsp;classes that reduce the need for customized styling.</label>
+      <label><input type="radio" name="q9" value="d">D. Fetching data from an API.</label>
+       </div>
+       <div class="question">
+        <p style="font-weight: bold;">10. Which of the following are used to structure and style a webpage? (Select all that apply)</p>
 
+  <fieldset>
+    <label>
+      <input type="checkbox" name="q10" value="python">
+      Python
+    </label><br>
+
+    <label>
+      <input type="checkbox" name="q10" value="html">
+      HTML
+    </label><br>
+
+    <label>
+      <input type="checkbox" name="q10" value="javascript">
+      JavaScript
+    </label><br>
+
+    <label>
+      <input type="checkbox" name="q10" value="css">
+      CSS
+    </label><br>
+  </fieldset>
+       </div>
+    <button type="button" onclick="gradeQuiz()" style="color: aquamarine; background-color: black;">Submit Quiz</button>
+    <button type="reset" style="color: aquamarine; background-color: black;">Clear Answers</button>
+    </form>
+    <div id="result" style="color: aquamarine; font-weight: bold;"></div>
+    <div id="answers" style="color: aquamarine; font-weight: bold;"></div>
+    
+</div>
+        <!-- Here is the javascript coding for the quiz-->
+    <script style="color: aquamarine;">
+        function gradeQuiz() {
+      let score = 0;
+      const total = 10;
+      const q1 = document.querySelector('input[name="q1"]:checked');
+      if (q1 && q1.value === "a") {
+        score++;
+      }
+      const q2 = document.querySelector('input[name="q2"]:checked');
+      if (q2 && q2.value === "c") {
+        score++;
+      }
+      const q3 = document.querySelector('input[name="q3"]:checked');
+      if (q3 && q3.value === "a") {
+        score++;
+      }
+      const q4 = document.getElementById("q4").value.trim().toLowerCase();
+      if (q4 === "skeleton") {
+        score++;
+      }
+      const q5 = document.getElementById("q5").value.trim().toLowerCase();
+      if (q5 === "skin") {
+        score++;
+      }
+      const q6 = document.querySelector('input[name="q6"]:checked');
+      if (q6 && q6.value === "b") {
+        score++;
+      }
+      const q7 = document.querySelector('input[name="q7"]:checked');
+      if (q7 && q7.value === "d") {
+        score++;
+      }
+      const q8 = document.querySelector('input[name="q8"]:checked');
+      if (q8 && q8.value === "c") {
+        score++;
+      }
+      const q9 = document.querySelector('input[name="q9"]:checked');
+      if (q9 && q9.value === "c") {
+        score++;
+      }
+      const q10 = document.querySelector('input[name="q10"]:checked');
+      if (q10 && q10.value === "html" && "css") {
+        score++;
+      }
+      document.getElementById("result").textContent = `You scored ${score} out of ${total}!`;
+      document.getElementById("answers").textContent = `The answers are 1. A 
+        2. C   3. A  4. skeleton
+      5. skin
+      6. B
+      7. D
+      8. C
+      9. C
+      10. HTML; CSS`
+    }
+    
+    const startingMinutes = 10;
+    let timeInSeconds = startingMinutes * 60;
+
+    const timerDisplay = document.getElementById('timer');
+
+    const countdown = setInterval(() => {
+      
+      const minutes = Math.floor(timeInSeconds / 60);
+      let seconds = timeInSeconds % 60;
+
+     
+      seconds = seconds < 10 ? '0' + seconds : seconds;
+
+      
+      timerDisplay.textContent = `${minutes}:${seconds}`;
+
+      
+      if (timeInSeconds <= 0) {
+        clearInterval(countdown);
+        timerDisplay.textContent = "Time's up!";
+        gradeQuiz();
+      } else {
+        timeInSeconds--;
+      }
+    }, 1000);
+    </script>
+     </body>
+</html>
